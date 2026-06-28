@@ -151,7 +151,7 @@ m.youtube.com##.ytCarouselTitleViewModelSubtitle
 m.youtube.com##.slim-video-information-subtitle-container
 
 ! player interactions
-m.youtube.com##ytm-slim-video-action-bar-renderer
+m.youtube.com##button-view-model
 
 ! player subscribe
 m.youtube.com##.slim-owner-subscribe-button
