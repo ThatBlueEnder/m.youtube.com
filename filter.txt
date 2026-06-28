@@ -1,9 +1,9 @@
 ! Title: Youtube Mobile
 
 ! header
-m.youtube.com###header-bar
-m.youtube.com###app:style(padding-top: 0 !important)
-m.youtube.com###player-container-id:style(top: 0 !important)
+!m.youtube.com###header-bar
+!m.youtube.com###app:style(padding-top: 0 !important)
+!m.youtube.com###player-container-id:style(top: 0 !important)
 
 ! navigation bar
 m.youtube.com##ytm-pivot-bar-renderer
