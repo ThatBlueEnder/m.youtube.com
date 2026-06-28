@@ -154,6 +154,9 @@ m.youtube.com##ytm-slim-video-action-bar-renderer
 ! player subscribe
 m.youtube.com##.slim-owner-subscribe-button
 
+! player purchase
+m.youtube.com##.slim-owner-purchase-button
+
 ! player subscriber count
 m.youtube.com##.slim-owner-subtitle
 
