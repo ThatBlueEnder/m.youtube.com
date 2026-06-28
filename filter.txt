@@ -113,7 +113,7 @@ m.youtube.com##ytm-rich-item-renderer:has(.ytContentMetadataViewModelDelimiter +
 m.youtube.com##.ytLockupMetadataViewModelMenuButton
 
 ! feed badge
-m.youtube.com##ytm-rich-item-renderer:has(.ytContentMetadataViewModelBadge)
+m.youtube.com##.ytContentMetadataViewModelMetadataRowMetadataRowWrap
 
 ! feed playlist
 m.youtube.com##ytm-rich-item-renderer:has(yt-collection-thumbnail-view-model)
@@ -131,7 +131,6 @@ m.youtube.com##ytm-video-with-context-renderer:has(.YtmBadgeAndBylineRendererSep
 m.youtube.com##ytm-video-with-context-renderer:has(.YtmBadgeAndBylineRendererItemByline:only-of-type :only-child)
 
 ! player free movies & tv
-m.youtube.com##ytm-video-with-context-renderer:has(.ytBadgeShapeCommerce)
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer:only-of-type[data-is-all-badges=true])
 
 ! player fullscreen bottom menu
@@ -151,7 +150,7 @@ m.youtube.com##.ytCarouselTitleViewModelSubtitle
 m.youtube.com##.slim-video-information-subtitle-container
 
 ! player interactions
-m.youtube.com##button-view-model
+m.youtube.com##ytm-slim-video-action-bar-renderer
 
 ! player subscribe
 m.youtube.com##.slim-owner-subscribe-button
@@ -223,3 +222,12 @@ m.youtube.com##ytm-comments-header-renderer
 
 ! player comment creator background color
 m.youtube.com##.YtmCommentRendererTitle:remove-attr(is-owner)
+
+! player comment disabled
+m.youtube.com##yt-video-metadata-carousel-view-model:not(:has(.ytCarouselTitleViewModelSubtitle))
+
+!player donate
+m.youtube.com##ytm-donation-shelf-renderer
+
+!player badge
+m.youtube.com##ytm-badge-supported-renderer
