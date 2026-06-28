@@ -1,0 +1,220 @@
+! header
+m.youtube.com###header-bar
+m.youtube.com###app:style(padding-top: 0 !important)
+m.youtube.com###player-container-id:style(top: 0 !important)
+
+! navigation bar
+m.youtube.com##ytm-pivot-bar-renderer
+
+! search suggestions
+m.youtube.com##.yt-searchbox-suggestions-container
+
+! search clear
+m.youtube.com##.ytSearchboxComponentClearButtonWrapper
+
+! search submit
+m.youtube.com##.ytSearchboxComponentSearchButton
+
+! search results filter
+m.youtube.com##.search-filter-icon
+
+! search results voice
+m.youtube.com##.mobile-topbar-header-voice-search-button
+
+! search results options
+m.youtube.com##[aria-label="More options"]
+m.youtube.com##[aria-label="Account"]
+
+! search results aside
+m.youtube.com##ytm-universal-watch-card-renderer
+
+! search results horizontal (e.g. an artist's albums)
+m.youtube.com##ytm-horizontal-card-list-renderer
+
+! search results shorts video
+m.youtube.com##ytm-video-with-context-renderer:has([data-style=SHORTS])
+
+! search results shorts grid
+m.youtube.com##grid-shelf-view-model
+
+! search results shorts
+m.youtube.com##.big-shorts-singleton
+
+! search results channel
+m.youtube.com##ytm-compact-channel-renderer
+
+! search results playlist
+m.youtube.com##ytm-compact-playlist-renderer
+
+! search results live
+m.youtube.com##ytm-video-with-context-renderer:has(.ytBadgeShapeThumbnailLive)
+
+! search results streams
+m.youtube.com##ytm-video-with-context-renderer:has(.YtmBadgeAndBylineRendererSeparator + :has-text(Streamed))
+
+! search results video preview
+m.youtube.com###video-preview-portal
+
+! search results radio
+m.youtube.com##ytm-compact-radio-renderer
+
+! search results badges
+m.youtube.com##.YtmBadgeAndBylineRendererItemBadge
+
+! search results ellipsis
+m.youtube.com##ytm-bottom-sheet-renderer
+m.youtube.com##ytm-menu-renderer
+
+! search results skibidi?
+m.youtube.com##ytm-compact-show-renderer
+
+! search results movies & tv
+m.youtube.com##ytm-video-with-context-renderer:has([no-channel-avatar=true])
+
+! search results views/date
+m.youtube.com##ytm-badge-and-byline-renderer :not(:first-child)
+
+! feed filter
+m.youtube.com###filter-chip-bar
+m.youtube.com##ytm-rich-grid-renderer > :first-child
+
+! feed search back
+m.youtube.com##.mobile-topbar-back-arrow
+
+! feed filter integrated
+m.youtube.com##chips-shelf-with-video-shelf-renderer
+
+! feed posts
+m.youtube.com##ytm-backstage-post-thread-renderer
+
+! feed verified mark
+m.youtube.com##.ytAttributedStringHost :has(c3-icon)
+m.youtube.com##.ytContentMetadataViewModelIcon
+
+! feed live
+m.youtube.com##ytm-rich-item-renderer:has(.ytBadgeShapeThumbnailLive)
+
+! feed radio
+m.youtube.com##ytm-radio-renderer
+
+! feed empty
+m.youtube.com##ytm-search-bar-entry-point-view-model
+m.youtube.com##ytm-feed-nudge-renderer
+
+! feed auto-dubbed
+m.youtube.com##ytm-rich-item-renderer:has(badge-shape:has-text(Auto-dubbed))
+
+! feed low views
+m.youtube.com##ytm-rich-item-renderer:has(.ytContentMetadataViewModelDelimiter + :has-text(/\d$/))
+
+! feed ellipsis
+m.youtube.com##.ytLockupMetadataViewModelMenuButton
+
+! feed badge
+m.youtube.com##ytm-rich-item-renderer:has(.ytContentMetadataViewModelBadge)
+
+! feed playlist
+m.youtube.com##ytm-rich-item-renderer:has(yt-collection-thumbnail-view-model)
+
+! feed views/date
+m.youtube.com##.ytContentMetadataViewModelMetadataRow :not(:first-child)
+
+! player new
+m.youtube.com##ytm-video-with-context-renderer:has(badge-shape:has-text(New))
+
+! player low views
+m.youtube.com##ytm-video-with-context-renderer:has(.YtmBadgeAndBylineRendererSeparator + :has-text(/\d views/))
+
+! player movies & tv
+m.youtube.com##ytm-video-with-context-renderer:has(.YtmBadgeAndBylineRendererItemByline:only-of-type :only-child)
+
+! player free movies & tv
+m.youtube.com##ytm-video-with-context-renderer:has(.ytBadgeShapeCommerce)
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer:only-of-type[data-is-all-badges=true])
+
+! player fullscreen bottom menu
+m.youtube.com##player-fullscreen-action-menu
+m.youtube.com###player-control-overlay:watch-attr(class):remove-class(fs-watch-system)
+
+! player next previous video
+m.youtube.com##.player-middle-controls-prev-next-button
+
+! player comment preview
+m.youtube.com##.ytVideoMetadataCarouselViewModelCarouselContainer
+
+! player comment count
+m.youtube.com##.ytCarouselTitleViewModelSubtitle
+
+! player video subtitle information
+m.youtube.com##.slim-video-information-subtitle-container
+
+! player interactions
+m.youtube.com##ytm-slim-video-action-bar-renderer
+
+! player subscribe
+m.youtube.com##.slim-owner-subscribe-button
+
+! player subscriber count
+m.youtube.com##.slim-owner-subtitle
+
+! player tags
+m.youtube.com##.clickable-metadata
+
+! player tag
+m.youtube.com##[href^="/hashtag/"]
+
+! player redundant title/channel/likes/views/date
+m.youtube.com##.primary-info
+
+! player channel information
+m.youtube.com##ytm-video-description-infocards-section-renderer
+
+! player description background color
+m.youtube.com##ytm-expandable-video-description-body-renderer:remove-attr(style)
+
+! player description expand
+m.youtube.com###collapsed-string:style(max-height: none !important)
+m.youtube.com##.collapsed-string-expand-button-container
+
+! player summary
+m.youtube.com##ytm-expandable-metadata-renderer
+
+! player attribute (e.g. what game is played in video)
+m.youtube.com##yt-video-attributes-section-view-model
+
+! player shorts
+m.youtube.com##ytm-reel-shelf-renderer
+
+! player unmute
+m.youtube.com##+js(trusted-click-element, .ytp-unmute)
+
+! player likes
+m.youtube.com##yt-list-item-view-model:has-text(Likes)
+
+! player views
+m.youtube.com##yt-list-item-view-model:has-text(Views)
+
+! player voice
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+
+! player open app
+m.youtube.com##.mobile-topbar-header-sign-in-button
+
+! player comment amount
+m.youtube.com##.engagement-panel-section-list-header-context
+
+! player comment pin
+m.youtube.com##.YtmPinnedCommentBadgeRendererContent
+
+! player comment details
+m.youtube.com##.YtmCommentRendererDetails
+m.youtube.com##ytm-comment-replies-renderer:style(margin-top: 0 !important)
+
+! player comment time
+m.youtube.com##.YtmCommentRendererPublishedTime
+
+! player comment add
+m.youtube.com##ytm-comments-header-renderer
+
+! player comment creator background color
+m.youtube.com##.YtmCommentRendererTitle:remove-attr(is-owner)
