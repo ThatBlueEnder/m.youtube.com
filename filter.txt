@@ -232,5 +232,6 @@ m.youtube.com##ytm-donation-shelf-renderer
 !player badge
 m.youtube.com##ytm-badge-supported-renderer
 
-!player mix (only works on reload)
+!player mix
 &start_radio=$removeparam=list,domain=youtube.com
+&start_radio=$removeparam=start_radio,domain=youtube.com
