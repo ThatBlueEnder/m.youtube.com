@@ -36,6 +36,9 @@ m.youtube.com##ytm-universal-watch-card-renderer
 ! search results horizontal (e.g. an artist's albums)
 m.youtube.com##ytm-horizontal-card-list-renderer
 
+! search results premier
+m.youtube.com##ytm-video-with-context-renderer:has([data-style=UPCOMING])
+
 ! search results shorts video
 m.youtube.com##ytm-video-with-context-renderer:has([data-style=SHORTS])
 
