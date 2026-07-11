@@ -124,6 +124,9 @@ m.youtube.com##ytm-rich-item-renderer:has(yt-collection-thumbnail-view-model)
 ! feed views/date
 m.youtube.com##.ytContentMetadataViewModelMetadataRow :not(:first-child)
 
+! player already watched videos
+m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-resume-playback-renderer)
+
 ! player new
 m.youtube.com##ytm-video-with-context-renderer:has(badge-shape:has-text(New))
 
@@ -143,26 +146,29 @@ m.youtube.com###player-control-overlay:watch-attr(class):remove-class(fs-watch-s
 ! player next previous video
 m.youtube.com##.player-middle-controls-prev-next-button
 
+! player autoplay
+m.youtube.com##player-autonav-toggle
+
 ! player comment preview
 m.youtube.com##.ytVideoMetadataCarouselViewModelCarouselContainer
 
 ! player comment count
 m.youtube.com##.ytCarouselTitleViewModelSubtitle
 
-! player video subtitle information
-m.youtube.com##.slim-video-information-subtitle-container
+! player like count
+m.youtube.com##.slim-video-information-like-count
 
-! player interactions
-m.youtube.com##ytm-slim-video-action-bar-renderer
+! player views / date
+m.youtube.com##.slim-video-information-upload-info
+
+! player description hint
+m.youtube.com##.slim-video-information-show-more
 
 ! player subscribe
-m.youtube.com##.slim-owner-subscribe-button
+m.youtube.com##.slim-subscribe-button
 
-! player purchase
-m.youtube.com##.slim-owner-purchase-button
-
-! player subscriber count
-m.youtube.com##.slim-owner-subtitle
+! player interactions
+m.youtube.com##button-view-model
 
 ! player tags
 m.youtube.com##.clickable-metadata

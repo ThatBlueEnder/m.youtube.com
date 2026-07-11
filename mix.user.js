@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Youtube Mobile
+// @name        Prevent Youtube Mix
 // @match       *://m.youtube.com/*
 // @run-at      document-start
 // ==/UserScript==
