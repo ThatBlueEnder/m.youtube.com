@@ -8,6 +8,9 @@
 ! navigation bar
 m.youtube.com##ytm-pivot-bar-renderer
 
+! toasts
+m.youtube.com###toasts
+
 ! search suggestions
 m.youtube.com##.yt-searchbox-suggestions-container
 
@@ -148,6 +151,9 @@ m.youtube.com##.player-middle-controls-prev-next-button
 
 ! player autoplay
 m.youtube.com##player-autonav-toggle
+
+! player autoplay notify
+m.youtube.com##player-user-edu-tooltip
 
 ! player comment preview
 m.youtube.com##.ytVideoMetadataCarouselViewModelCarouselContainer
