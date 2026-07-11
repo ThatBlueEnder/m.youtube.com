@@ -1,3 +1,3 @@
 https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FThatBlueEnder%2Fm.youtube.com%2Frefs%2Fheads%2Fmain%2Ffilter.txt&title=Youtube%20Mobile[Content Filter] +
-https://github.com/ThatBlueEnder/m.youtube.com/raw/refs/heads/main/script.user.js[Prevent Mix] +
-https://github.com/ThatBlueEnder/m.youtube.com/raw/refs/heads/main/script.user.js[Prevent Autoplay]
+https://github.com/ThatBlueEnder/m.youtube.com/raw/refs/heads/main/mix.user.js[Prevent Mix] +
+https://github.com/ThatBlueEnder/m.youtube.com/raw/refs/heads/main/autoplay.user.js[Prevent Autoplay]
