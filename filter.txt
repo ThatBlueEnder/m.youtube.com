@@ -86,6 +86,9 @@ m.youtube.com##.mobile-topbar-back-arrow
 ! feed filter integrated
 m.youtube.com##chips-shelf-with-video-shelf-renderer
 
+! feed yoodle
+m.youtube.com##ytm-statement-banner-renderer
+
 ! feed posts
 m.youtube.com##ytm-backstage-post-thread-renderer
 
