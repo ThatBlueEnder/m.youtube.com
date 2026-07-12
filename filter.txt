@@ -151,6 +151,9 @@ m.youtube.com##ytm-video-with-context-renderer:has(.YtmBadgeAndBylineRendererIte
 ! player free movies & tv
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-badge-and-byline-renderer:only-of-type[data-is-all-badges=true])
 
+! player chapter select
+m.youtube.com##.ytwPlayerTimeDisplayPlayerBarActionContainer
+
 ! player fullscreen bottom menu
 m.youtube.com##player-fullscreen-action-menu
 m.youtube.com###player-control-overlay:watch-attr(class):remove-class(fs-watch-system)
