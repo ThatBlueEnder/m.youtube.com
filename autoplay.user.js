@@ -8,7 +8,7 @@
   'use strict';
 
   new MutationObserver(() =>
-    document.querySelectorAll('.ytwAutonavToggleButtonHost[aria-pressed=true]').forEach(e => e.click())
+    document.querySelector('.ytwAutonavToggleButtonHost[aria-pressed=true]')?.click()
   ).observe(document.body, {
     childList: true,
     subtree: true

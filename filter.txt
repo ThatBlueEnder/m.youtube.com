@@ -95,6 +95,9 @@ m.youtube.com##chips-shelf-with-video-shelf-renderer
 ! feed yoodle
 m.youtube.com##ytm-statement-banner-renderer
 
+! feed news
+m.youtube.com##.rich-section-content
+
 ! feed posts
 m.youtube.com##ytm-backstage-post-thread-renderer
 
