@@ -161,6 +161,9 @@ m.youtube.com##.player-middle-controls-prev-next-button
 ! player autoplay
 m.youtube.com##player-autonav-toggle
 
+! player caption
+m.youtube.com##yt-closed-captions-toggle-button
+
 ! player autoplay notify
 m.youtube.com##player-user-edu-tooltip
 
