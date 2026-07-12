@@ -133,6 +133,9 @@ m.youtube.com##ytm-rich-item-renderer:has(yt-collection-thumbnail-view-model)
 ! feed views/date
 m.youtube.com##.ytContentMetadataViewModelMetadataRow :not(:first-child)
 
+! player comment
+!m.youtube.com##yt-video-metadata-carousel-view-model
+
 ! player already watched videos
 m.youtube.com##ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-resume-playback-renderer)
 
@@ -167,29 +170,17 @@ m.youtube.com##.ytVideoMetadataCarouselViewModelCarouselContainer
 ! player comment count
 m.youtube.com##.ytCarouselTitleViewModelSubtitle
 
-! player like count
-m.youtube.com##.slim-video-information-like-count
+! player subtitle
+m.youtube.com##.slim-video-information-subtitle-container
 
-! player views / date
-m.youtube.com##.slim-video-information-upload-info
-
-! player description hint
-m.youtube.com##.slim-video-information-show-more
-
-! player subscribe
-m.youtube.com##.slim-subscribe-button
-
-! player interactions
-m.youtube.com##button-view-model
-
-! player tags
-m.youtube.com##.clickable-metadata
+! player channel/actions
+m.youtube.com##ytm-slim-video-action-bar-renderer
 
 ! player tag
 m.youtube.com##[href^="/hashtag/"]
 
-! player redundant title/channel/likes/views/date
-m.youtube.com##.primary-info
+! player likes/view/date
+m.youtube.com##.factoids
 
 ! player channel information
 m.youtube.com##ytm-video-description-infocards-section-renderer
