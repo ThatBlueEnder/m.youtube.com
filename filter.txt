@@ -182,6 +182,9 @@ m.youtube.com##.slim-video-information-subtitle-container
 ! player channel/actions
 m.youtube.com##ytm-slim-video-action-bar-renderer
 
+! player trending
+m.youtube.com##.clickable-metadata
+
 ! player tag
 m.youtube.com##[href^="/hashtag/"]
 
