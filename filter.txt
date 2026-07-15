@@ -12,7 +12,7 @@ m.youtube.com##ytm-pivot-bar-renderer
 m.youtube.com###toasts
 
 ! yoodle
-||gstatic.com/youtube/img/promos/
+gstatic.com/youtube/img/promos
 
 ! search suggestions
 m.youtube.com##.yt-searchbox-suggestions-container
