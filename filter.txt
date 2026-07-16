@@ -15,7 +15,7 @@ m.youtube.com###toasts
 gstatic.com/youtube/img/promos
 
 ! search suggestions
-m.youtube.com##.yt-searchbox-suggestions-container
+suggestqueries-clients6.youtube.com
 
 ! search clear
 m.youtube.com##.ytSearchboxComponentClearButtonWrapper
@@ -110,6 +110,9 @@ m.youtube.com##.ytContentMetadataViewModelIcon
 
 ! feed live
 m.youtube.com##ytm-rich-item-renderer:has(.ytBadgeShapeThumbnailLive)
+
+! feed streams
+m.youtube.com##ytm-rich-item-renderer:has(.ytContentMetadataViewModelDelimiter + :has-text(Streamed))
 
 ! feed radio
 m.youtube.com##ytm-radio-renderer
