@@ -167,6 +167,9 @@ m.youtube.com###player-control-overlay:watch-attr(class):remove-class(fs-watch-s
 ! player next previous video
 m.youtube.com##.player-middle-controls-prev-next-button
 
+! player replay
+m.youtube.com##.endscreen-replay-button
+
 ! player autoplay
 m.youtube.com##player-autonav-toggle
 
@@ -218,6 +221,9 @@ m.youtube.com##ytm-reel-shelf-renderer
 
 ! player unmute
 m.youtube.com##+js(trusted-click-element, .ytp-unmute)
+
+! player play
+m.youtube.com##+js(trusted-click-element, when-visible:.ytp-large-play-button)
 
 ! player likes
 m.youtube.com##yt-list-item-view-model:has-text(Likes)
